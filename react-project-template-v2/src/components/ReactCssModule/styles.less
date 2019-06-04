@@ -1,0 +1,13 @@
+@size: 32px;
+
+.head-title {
+    border: 3px solid @theme-color;
+    font-size: @size;
+}
+
+:global(.text-style) {
+    &::first-letter {
+        text-transform: uppercase;
+        font-size: 150%;
+    }
+}
